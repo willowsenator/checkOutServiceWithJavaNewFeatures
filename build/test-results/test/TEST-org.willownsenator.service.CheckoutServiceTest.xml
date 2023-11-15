@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.willownsenator.service.CheckoutServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-15T00:21:35" hostname="WILLOWWOODS" time="0.051">
+  <properties/>
+  <testcase name="Checkout for Card type: DEBIT" classname="org.willownsenator.service.CheckoutServiceTest" time="0.043"/>
+  <testcase name="Checkout for Card type: CREDIT" classname="org.willownsenator.service.CheckoutServiceTest" time="0.002"/>
+  <testcase name="Checkout for Card type: REWARDS" classname="org.willownsenator.service.CheckoutServiceTest" time="0.001"/>
+  <system-out><![CDATA[Debit Card Payment for the amount 110.0
+Credit Card Payment for the amount 110.0
+Rewards Card Payment for the amount 110.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

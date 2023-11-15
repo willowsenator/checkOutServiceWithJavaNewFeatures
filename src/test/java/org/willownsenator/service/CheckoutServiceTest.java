@@ -8,10 +8,12 @@ import org.willownsenator.domain.CheckOutStatus;
 import org.willownsenator.domain.OrderDetails;
 import org.willownsenator.payment.PaymentService;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 class CheckoutServiceTest {
     PaymentService paymentService = new PaymentService();
+
     CheckoutService checkoutService = new CheckoutService(paymentService);
 
     @EnumSource(CardType.class)

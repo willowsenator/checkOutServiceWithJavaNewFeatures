@@ -8,7 +8,10 @@ public class PaymentFactory {
             case DEBIT -> new DebitCardPayment();
             case CREDIT -> new CreditCardPayment();
             case REWARDS -> new RewardsCardPayment();
-            case null -> throw new IllegalArgumentException("Card null not supported!");
+            case null -> throw
+                    new IllegalArgumentException(
+                            "Card null not supported!"
+                    );
         };
     }
 }
